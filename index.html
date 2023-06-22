@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name - Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .active {
+            font-weight: bold;
+        }
+
+        #hero-section {
+            background-image: url("https://cdn.pixabay.com/photo/2020/01/30/21/24/shop-4806610_1280.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .hero-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        #about-section {
+            padding: 50px 0;
+            text-align: center;
+            background-color: #6d4786;
+            color: #fff;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        a:hover {
+            color: #6d4786;
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <!-- <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Restaurant Name</h1>
+            <p>Discover a world of flavors</p>
+            <a href="menu.html" class="button">View Menu</a>
+        </div>
+    </section>
+
+    <section id="about-section">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Welcome to Restaurant Name, where culinary excellence meets warm hospitality. We take pride in serving
+                exquisite dishes that tantalize your taste buds and create memorable dining experiences.</p>
+            <p>Our talented team of chefs sources only the freshest, locally-sourced ingredients to craft our menu. From
+                traditional favorites to innovative creations, each dish is prepared with precision and passion.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
